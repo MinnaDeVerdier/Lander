@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrundläggandeObjekt-lander", "GrundläggandeObjekt-lander.csproj", "{A87E8BBC-D5C5-4C69-9365-C3BE66EA3230}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A87E8BBC-D5C5-4C69-9365-C3BE66EA3230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87E8BBC-D5C5-4C69-9365-C3BE66EA3230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87E8BBC-D5C5-4C69-9365-C3BE66EA3230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87E8BBC-D5C5-4C69-9365-C3BE66EA3230}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73BE5856-F7DF-47DC-BBB8-84C4EE90AA11}
+	EndGlobalSection
+EndGlobal
