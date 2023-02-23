@@ -26,7 +26,8 @@
             länder[4] = new Land { namn = "Italien", styrestyp = "republik", huvudstad = "Rom", invånare = 505050 };
             länder[5] = new Land { namn = "Tjeckien", styrestyp = "republik", huvudstad = "Warsawa", invånare = 606060 };
             länder[6] = new Land { namn = "Rumänien", styrestyp = "republik", huvudstad = "Bukarest", invånare = 707070 };
-
+            Console.WriteLine();
+            foreach(Land l in länder) { l.Print(); };
         }
     }
 }
