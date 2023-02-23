@@ -28,6 +28,12 @@
             länder[6] = new Land { namn = "Rumänien", styrestyp = "republik", huvudstad = "Bukarest", invånare = 707070 };
             Console.WriteLine();
             foreach(Land l in länder) { l.Print(); };
+            Console.WriteLine();
+            foreach(Land l in länder) 
+            { 
+                if(l.styrestyp=="republik")
+                    Console.WriteLine(l.namn);
+            };
         }
     }
 }
