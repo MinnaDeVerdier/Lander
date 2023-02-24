@@ -21,19 +21,25 @@
             sverige.Print();
             tyskland.Print();
             sanMarino.Print();
+            
             Land[] länder = new Land[7] { sverige, tyskland, sanMarino, null, null, null, null };
             länder[3] = new Land() { namn = "Danmark", styrestyp = "monarki", huvudstad = "Köpenhamn", invånare = 404040 };
             länder[4] = new Land { namn = "Italien", styrestyp = "republik", huvudstad = "Rom", invånare = 505050 };
             länder[5] = new Land { namn = "Tjeckien", styrestyp = "republik", huvudstad = "Warsawa", invånare = 606060 };
             länder[6] = new Land { namn = "Rumänien", styrestyp = "republik", huvudstad = "Bukarest", invånare = 707070 };
             Console.WriteLine();
+            
             foreach(Land l in länder) { l.Print(); };
             Console.WriteLine();
-            foreach(Land l in länder) 
-            { 
-                if(l.styrestyp=="republik")
-                    Console.WriteLine(l.namn);
-            };
+            
+            for (int i =0; i<länder.Length; i++)
+            {
+                if (länder[i].styrestyp=="republik")
+                    Console.WriteLine($"[{i}] {länder[i].namn}");
+
+            }
+            
+            
         }
     }
 }
